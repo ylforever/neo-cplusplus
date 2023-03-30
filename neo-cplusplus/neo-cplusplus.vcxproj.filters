@@ -39,10 +39,22 @@
     <ClCompile Include="src\util\neo_logger.cpp">
       <Filter>Source Files\util</Filter>
     </ClCompile>
+    <ClCompile Include="src\service\const_demo.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\auto_demo.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\util\neo_logger.h">
       <Filter>Header Files\util_h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\service\const_demo.h">
+      <Filter>Header Files\service_h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\service\auto_demo.h">
+      <Filter>Header Files\service_h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

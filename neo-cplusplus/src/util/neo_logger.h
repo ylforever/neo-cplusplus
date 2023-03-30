@@ -1,5 +1,6 @@
 #pragma once
 #include <initializer_list>
+#include <string>
 
 namespace neo {
 	/*****************************************************************************
@@ -12,10 +13,10 @@ namespace neo {
 	template <class T>
 	void LogConsole(std::initializer_list<T> logParams) 
 	{
-		std::string logInfo;
 		for (T param : logParams) {
-			logInfo.append(param).append(" ");
+			std::cout << param << " ";
 		}
-		std::cout << logInfo << std::endl;
+
+		std::cout << std::endl;
 	}
 }

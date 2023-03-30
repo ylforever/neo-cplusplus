@@ -132,9 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\neo_start.cpp" />
+    <ClCompile Include="src\service\auto_demo.cpp" />
+    <ClCompile Include="src\service\const_demo.cpp" />
     <ClCompile Include="src\util\neo_logger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\service\auto_demo.h" />
+    <ClInclude Include="src\service\const_demo.h" />
     <ClInclude Include="src\util\neo_logger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
